@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>M0J4's Portfolio WebSite</title>
+  <link rel="icon" href="favicon.png">
+
+  <!-- open graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="M0J4's Portfolio WebSite">
+  <meta property="og:title" content="M0J4의 포트폴리오 웹사이트">
+  <meta property="og:description" content="안녕하세요 프론트엔드 개발자 M0J4입니다. 이 사이트는 개인 포트폴리오 웹사이트 입니다.">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+  
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/d7134871a2.js" crossorigin="anonymous"></script>
+
+  <!-- gsap cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- gsap - scrollTrigger cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+  <!-- swiper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script defer src="./main.js"></script>
+</head>
+<body>
+  <nav id="nav">
+    <div class="nav__container">
+      <div class="nav__title"><i class="fa-solid fa-laptop"></i> Dev_M0J4</div>
+      <button class="nav__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <ul class="nav__items">
+      <li class="nav__item active" data-link="#home">M0J4's Portfolio</li>
+      <li class="nav__item" data-link="#about">About Me</li>
+      <li class="nav__item" data-link="#skills">Skills</li>
+      <li class="nav__item" data-link="#project">Project</li>
+      <li class="nav__item" data-link="#archive">Archive</li>
+    </ul>
+    <div class="scroller">
+      <div class="scroller--var"></div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="home__container">
+      <h2 class="home__title">{ 반갑습니다: 프론트엔드 개발자 M0J4입니다 }</h2>
+      <p class="home__mouse">👇 뒷면엔 무엇이 있을까요?</p>
+      <div class="items">
+        <div class="item front">
+          <img src="./imgs/profile.png" alt="">
+        </div>
+        <div class="item back">
+          <p class="home__ask">why frontend?</p>
+          <p class="home__description">
+            사용자 경험을 중요시하고, <br> 개발 분야 중 가장 빠른 트렌드 변화를 추구하며<br>
+            사용자들에게 많은 정보를 한 눈에, <br><b>"가치"</b>를 전달할 수 있다는 부분에서<br> 
+            큰 매력을 느껴 진입하게 되었습니다.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about__container">
+      <p class="about__view">About Me</p>
+      <div class="about__items">
+        <div class="about__item name">
+          <i class="fa-solid fa-person"></i>
+          <p class="about__title">name</p>
+          <div class="about__line"></div>
+          <p class="about__description">M0J4</p>
+        </div>
+        <div class="about__item age">
+          <i class="fa-brands fa-pagelines"></i>
+          <p class="about__title">age</p>
+          <div class="about__line"></div>
+          <p class="about__description">00</p>
+        </div>
+        <div class="about__item address">
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+          <p class="about__title">address</p>
+          <div class="about__line"></div>
+          <p class="about__description">서울특별시 어딘가</p>
+        </div>
+        <div class="about__item phoneNum">
+          <i class="fa-solid fa-phone"></i>
+          <p class="about__title">phone-number</p>
+          <div class="about__line"></div>
+          <p class="about__description">010-1234-5678</p>
+        </div>
+        <div class="about__item email">
+          <i class="fa-solid fa-envelope"></i>
+          <p class="about__title">email</p>
+          <div class="about__line"></div>
+          <p class="about__description">Lorem@Lorem.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skill__container">
+      <p class="skill__title">Skills</p>
+      <div class="skill__flex-box">
+        <div class="skill__flex-item">
+          <div class="skill__frontend">Frontend</div>
+          <img src="./imgs/skills__frontend.png" alt="">
+        </div>
+        <div class="skill__flex-item">
+          <img src="./imgs/skills__deployment.png" alt="">
+          <div class="skill__deployment">Development</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <div class="project__container swiper">
+      <p class="project__title">Projects</p>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgs/pseudo prj.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/pseudo prj.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/pseudo prj.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/pseudo prj.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/pseudo prj.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="archive">
+    <div class="archive__container">
+      <p class="archive__title">Archive</p>
+      <div class="archive__box">
+        <div class="archive__github">
+          <p class="archive__github-title"><i class="fa-brands fa-github"></i>Github</p>
+          <a href="https://github.com/kevinj0695">https://github.com/kevinj0695</a>
+          <p class="archive__description">- 공부 후 흔적을 남기는 소스 코드 보관소</p>
+          <p class="archive__description">- 프로젝트 코드 관리</p>
+          <p class="archive__description">- 코딩테스트 문제풀이 모음</p>
+        </div>
+        <div class="archive__tistory">
+          <p class="archive__tistory-title"><i class="fa-solid fa-blog"></i>Tistory</p>
+          <a href="https://m0j4.tistory.com/">https://m0j4.tistory.com/</a>
+          <p class="archive__description">- 웹 관련 지식을 블로그에 정리</p>
+          <p class="archive__description">- 프로젝트 이후 얻은 지식들을 정리</p>
+          <p class="archive__description">- 에러/상황 사례 모음 후 지식 공유</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="contact__container">
+      <p class="contact__title">&copy; 2023 M0J4 Portfolio Website</p>
+      <div class="contact__box">
+        <a href="https://github.com/kevinj0695">
+          <i class="fa-brands fa-github fa-github--white"></i>
+        </a>
+        <a href="https://m0j4.tistory.com/">
+          <i class="fa-solid fa-blog fa-blog--white"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
