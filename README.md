@@ -37,4 +37,5 @@
 - https://m0j4.tistory.com/58 <br>
 > CSS - BEM방법론
 - https://m0j4.tistory.com/56
-
+> [javascript] - 이벤트 캡처링, 버블링, 이벤트 위임(event delegation)
+- https://m0j4.tistory.com/59
