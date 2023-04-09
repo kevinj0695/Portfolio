@@ -11,7 +11,7 @@ export default class Scroll {
   getPercent() {
     let scrollTop = this.docEl.scrollTop;
     let scrollPercent = (scrollTop/this.scrollHeight) * 100;
-    this.scroller.style.transfrom = `translateX(${(-100 + scrollPercent)}%)`;
+    this.scroller.style.transfrom = `translateX(${-100 + scrollPercent}%)`;
     return scrollPercent;
   }
 }
