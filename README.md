@@ -34,5 +34,7 @@
 </div> <br>
 
 > portfolio project - 스크롤 상태바 개발 / 브라우저 CSSOM 페인트 수 개선 예시 <br>
-- https://m0j4.tistory.com/58
+- https://m0j4.tistory.com/58 <br>
+> CSS - BEM방법론
+- https://m0j4.tistory.com/56
 
