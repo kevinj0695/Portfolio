@@ -11,3 +11,6 @@
   <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white">
 </div>
+<br><br>
+<p align="center">👉 <b>Link</b></p>
+<p align="center">https://kevinj0695.github.io/portfolio/</p>
