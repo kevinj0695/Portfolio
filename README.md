@@ -29,6 +29,10 @@
 
 <h2>프로젝트를 하며 공부한 부분들 ✅</h2>
 
-> javascript - 스크롤 상태바 개발 / 브라우저 CSSOM 페인트 수 개선 예시 <br>
+<div>
+  <img src="https://blog.kakaocdn.net/dn/vlIAH/btr7s4Cl9Db/rj3KXEoP1tdO6ZgudCkaW1/img.gif">
+</div> <br>
+
+> portfolio project - 스크롤 상태바 개발 / 브라우저 CSSOM 페인트 수 개선 예시 <br>
 - https://m0j4.tistory.com/58
-</p>
+
